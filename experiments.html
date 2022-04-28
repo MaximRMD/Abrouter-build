@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Relvice</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="main-experiment">
+    <section class="filter">
+        <h1 class="filter__title logo">
+            <a href="index.html">ABROUTER</a>
+        </h1>
+        <ul class="filter__list">
+            <li class="filter__item">
+                <a class="filter__link" href="">Experiments</a>
+            </li>
+            <li class="filter__item">
+                <a class="filter__link" href="">Statistics</a>
+            </li>
+            <li class="filter__item">
+                <a class="filter__link" href="">Feature flags</a>
+            </li>
+            <li class="filter__item">
+                <a class="filter__link" href="">Help</a>
+            </li>
+            <li class="filter__item">
+                <a class="filter__link" href="">Docs</a>
+            </li>
+        </ul>
+    </section>
+    <section class="editor">
+        <div class="editor__user-block">
+            <button class="editor__user-id">Your Token ID </button>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12.5006 11.0001H11.7106L11.4306 10.7301C12.6306 9.33014 13.2506 7.42014 12.9106 5.39014C12.4406 2.61014 10.1206 0.390137 7.32063 0.0501373C3.09063 -0.469863 -0.469374 3.09014 0.0506256 7.32014C0.390626 10.1201 2.61063 12.4401 5.39063 12.9101C7.42063 13.2501 9.33063 12.6301 10.7306 11.4301L11.0006 11.7101V12.5001L15.2506 16.7501C15.6606 17.1601 16.3306 17.1601 16.7406 16.7501C17.1506 16.3401 17.1506 15.6701 16.7406 15.2601L12.5006 11.0001ZM6.50063 11.0001C4.01063 11.0001 2.00063 8.99014 2.00063 6.50014C2.00063 4.01014 4.01063 2.00014 6.50063 2.00014C8.99063 2.00014 11.0006 4.01014 11.0006 6.50014C11.0006 8.99014 8.99063 11.0001 6.50063 11.0001Z"
+                    fill="#9699AB" />
+            </svg>
+            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.99956 16C9.99956 17.1 9.09956 18 7.99956 18C6.88956 18 5.99956 17.1 5.99956 16H9.99956Z"
+                    fill="#9699AB" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M15.2896 13.29L13.9996 12V6.99999C13.9996 3.92999 12.3596 1.35999 9.49956 0.679993C9.49956 0.679993 8.58952 0.499995 7.99951 0.5C7.40954 0.500005 6.49956 0.679993 6.49956 0.679993C3.62956 1.35999 1.99956 3.91999 1.99956 6.99999V12L0.709563 13.29C0.0795632 13.92 0.519563 15 1.40956 15H14.5796C15.4796 15 15.9196 13.92 15.2896 13.29ZM3.99956 13H11.9996V6.99999C11.9996 4.51999 10.4896 2.49999 7.99956 2.49999C5.50956 2.49999 3.99956 4.51999 3.99956 6.99999V13Z"
+                    fill="#9699AB" />
+            </svg>
+        </div>
+        <h2 class="editor__title-block titles">Experiments</h2>
+        <div class="editor__button">
+            <ul class="editor__button-item">
+                <li class="editor__button-list">
+                    <button class="editor__button-list">Active</button>
+                </li>
+                <li class="editor__button-list">
+                    <button class="editor__button-list">Awaiting launch </button>
+                </li>
+                <li class="editor__button-list">
+                    <button class="editor__button-list">Not active</button>
+                </li>
+            </ul>
+            <div class="editor__create">
+                <a href=""><svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="8.5" cy="8.5" r="8.5" fill="#32AD67" />
+                        <path
+                            d="M12.3571 9.14286H9.14286V12.3571C9.14286 12.7107 8.85357 13 8.5 13C8.14643 13 7.85714 12.7107 7.85714 12.3571V9.14286H4.64286C4.28929 9.14286 4 8.85357 4 8.5C4 8.14643 4.28929 7.85714 4.64286 7.85714H7.85714V4.64286C7.85714 4.28929 8.14643 4 8.5 4C8.85357 4 9.14286 4.28929 9.14286 4.64286V7.85714H12.3571C12.7107 7.85714 13 8.14643 13 8.5C13 8.85357 12.7107 9.14286 12.3571 9.14286Z"
+                            fill="white" />
+                    </svg> Create new experiment </a>
+            </div>
+
+        </div>
+        <div class="editor__configuration">
+            <div class="editor__name">
+                <ul class="editor__name-list">
+                    <li class="editor__name-item">Status</li>
+                    <li class="editor__name-item">Experiment name</li>
+                    <li class="editor__name-item">Experiment ID</li>
+                    <li class="editor__name-item">Manage</li>
+                </ul>
+            </div>
+
+            <div class="editor__toggle-block">
+                <div class="editor__toggle">
+                    <div class="editor__swich">
+                        <input type="checkbox" class="editor__checkbox" id="checkbox">
+                        <label for="checkbox" class="editor__slider"></label>
+                    </div>
+                </div>
+                <p>Button color</p>
+                <p>B95AC000-0000-0000-00005030</p>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="10" fill="#F7F7FC" />
+                    <path
+                        d="M23.8802 22.4698C24.3602 21.6998 24.6302 20.7998 24.5702 19.8098C24.4402 17.6598 22.7302 15.8398 20.6002 15.6098C17.8802 15.3098 15.5802 17.4198 15.5802 20.0798C15.5802 22.5698 17.5902 24.5798 20.0702 24.5798C20.9502 24.5798 21.7702 24.3198 22.4602 23.8798L24.8702 26.2898C25.2602 26.6798 25.9002 26.6798 26.2902 26.2898C26.6802 25.8998 26.6802 25.2598 26.2902 24.8698L23.8802 22.4698ZM20.0802 22.5798C18.7002 22.5798 17.5802 21.4598 17.5802 20.0798C17.5802 18.6998 18.7002 17.5798 20.0802 17.5798C21.4602 17.5798 22.5802 18.6998 22.5802 20.0798C22.5802 21.4598 21.4602 22.5798 20.0802 22.5798ZM19.7202 14.0798C18.9802 14.0998 18.2702 14.2598 17.6202 14.5298L17.0702 13.6998L13.9902 18.7098C13.6302 19.2898 12.8202 19.3498 12.3802 18.8398L10.2602 16.3698L7.20023 21.2698C6.89023 21.7598 6.23023 21.8898 5.76023 21.5498C5.34023 21.2398 5.22023 20.6598 5.50023 20.2098L9.28023 14.1598C9.64023 13.5898 10.4502 13.5298 10.8902 14.0398L13.0002 16.4998L16.1802 11.3298C16.5602 10.7098 17.4602 10.6898 17.8602 11.2998L19.7202 14.0798ZM22.3102 14.5798C21.6702 14.2998 20.9802 14.1298 20.2602 14.0898L24.8002 6.89981C25.1102 6.40981 25.7702 6.28981 26.2302 6.62981C26.6602 6.93981 26.7702 7.52981 26.4902 7.96981L22.3102 14.5798Z"
+                        fill="#9699AB" />
+                </svg>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="10" fill="#F7F7FC" />
+                    <path
+                        d="M18 15C18 15.55 17.55 16 17 16H8C7.45 16 7 15.55 7 15C7 14.45 7.45 14 8 14H17C17.55 14 18 14.45 18 15ZM7 11C7 11.55 7.45 12 8 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H8C7.45 10 7 10.45 7 11ZM14 19C14 18.45 13.55 18 13 18H8C7.45 18 7 18.45 7 19C7 19.55 7.45 20 8 20H13C13.55 20 14 19.55 14 19ZM22.01 16.87L22.72 16.16C23.11 15.77 23.74 15.77 24.13 16.16L24.84 16.87C25.23 17.26 25.23 17.89 24.84 18.28L24.13 18.99L22.01 16.87ZM21.3 17.58L16.14 22.74C16.05 22.83 16 22.95 16 23.09V24.5C16 24.78 16.22 25 16.5 25H17.91C18.04 25 18.17 24.95 18.26 24.85L23.42 19.69L21.3 17.58Z"
+                        fill="#9699AB" />
+                </svg>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="10" fill="#F7F7FC" />
+                    <path
+                        d="M10 23C10 24.1 10.9 25 12 25H20C21.1 25 22 24.1 22 23V13C22 11.9 21.1 11 20 11H12C10.9 11 10 11.9 10 13V23ZM13 13H19C19.55 13 20 13.45 20 14V22C20 22.55 19.55 23 19 23H13C12.45 23 12 22.55 12 22V14C12 13.45 12.45 13 13 13ZM19.5 8L18.79 7.29C18.61 7.11 18.35 7 18.09 7H13.91C13.65 7 13.39 7.11 13.21 7.29L12.5 8H10C9.45 8 9 8.45 9 9C9 9.55 9.45 10 10 10H22C22.55 10 23 9.55 23 9C23 8.45 22.55 8 22 8H19.5Z"
+                        fill="#9699AB" />
+                </svg>
+            </div>
+
+            <div class="editor__toggle-block">
+                <div class="editor__toggle">
+                    <div class="editor__swich">
+                        <input type="checkbox" class="editor__checkbox" id="checkbox1">
+                        <label for="checkbox1" class="editor__slider"></label>
+                    </div>
+                </div>
+                <p>Free trial</p>
+                <p>Q6780504-0450-0000-00565030</p>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="10" fill="#F7F7FC" />
+                    <path
+                        d="M23.8802 22.4698C24.3602 21.6998 24.6302 20.7998 24.5702 19.8098C24.4402 17.6598 22.7302 15.8398 20.6002 15.6098C17.8802 15.3098 15.5802 17.4198 15.5802 20.0798C15.5802 22.5698 17.5902 24.5798 20.0702 24.5798C20.9502 24.5798 21.7702 24.3198 22.4602 23.8798L24.8702 26.2898C25.2602 26.6798 25.9002 26.6798 26.2902 26.2898C26.6802 25.8998 26.6802 25.2598 26.2902 24.8698L23.8802 22.4698ZM20.0802 22.5798C18.7002 22.5798 17.5802 21.4598 17.5802 20.0798C17.5802 18.6998 18.7002 17.5798 20.0802 17.5798C21.4602 17.5798 22.5802 18.6998 22.5802 20.0798C22.5802 21.4598 21.4602 22.5798 20.0802 22.5798ZM19.7202 14.0798C18.9802 14.0998 18.2702 14.2598 17.6202 14.5298L17.0702 13.6998L13.9902 18.7098C13.6302 19.2898 12.8202 19.3498 12.3802 18.8398L10.2602 16.3698L7.20023 21.2698C6.89023 21.7598 6.23023 21.8898 5.76023 21.5498C5.34023 21.2398 5.22023 20.6598 5.50023 20.2098L9.28023 14.1598C9.64023 13.5898 10.4502 13.5298 10.8902 14.0398L13.0002 16.4998L16.1802 11.3298C16.5602 10.7098 17.4602 10.6898 17.8602 11.2998L19.7202 14.0798ZM22.3102 14.5798C21.6702 14.2998 20.9802 14.1298 20.2602 14.0898L24.8002 6.89981C25.1102 6.40981 25.7702 6.28981 26.2302 6.62981C26.6602 6.93981 26.7702 7.52981 26.4902 7.96981L22.3102 14.5798Z"
+                        fill="#9699AB" />
+                </svg>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="10" fill="#F7F7FC" />
+                    <path
+                        d="M18 15C18 15.55 17.55 16 17 16H8C7.45 16 7 15.55 7 15C7 14.45 7.45 14 8 14H17C17.55 14 18 14.45 18 15ZM7 11C7 11.55 7.45 12 8 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H8C7.45 10 7 10.45 7 11ZM14 19C14 18.45 13.55 18 13 18H8C7.45 18 7 18.45 7 19C7 19.55 7.45 20 8 20H13C13.55 20 14 19.55 14 19ZM22.01 16.87L22.72 16.16C23.11 15.77 23.74 15.77 24.13 16.16L24.84 16.87C25.23 17.26 25.23 17.89 24.84 18.28L24.13 18.99L22.01 16.87ZM21.3 17.58L16.14 22.74C16.05 22.83 16 22.95 16 23.09V24.5C16 24.78 16.22 25 16.5 25H17.91C18.04 25 18.17 24.95 18.26 24.85L23.42 19.69L21.3 17.58Z"
+                        fill="#9699AB" />
+                </svg>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="10" fill="#F7F7FC" />
+                    <path
+                        d="M10 23C10 24.1 10.9 25 12 25H20C21.1 25 22 24.1 22 23V13C22 11.9 21.1 11 20 11H12C10.9 11 10 11.9 10 13V23ZM13 13H19C19.55 13 20 13.45 20 14V22C20 22.55 19.55 23 19 23H13C12.45 23 12 22.55 12 22V14C12 13.45 12.45 13 13 13ZM19.5 8L18.79 7.29C18.61 7.11 18.35 7 18.09 7H13.91C13.65 7 13.39 7.11 13.21 7.29L12.5 8H10C9.45 8 9 8.45 9 9C9 9.55 9.45 10 10 10H22C22.55 10 23 9.55 23 9C23 8.45 22.55 8 22 8H19.5Z"
+                        fill="#9699AB" />
+                </svg>
+            </div>
+
+            <div class="editor__toggle-block">
+                <div class="editor__toggle">
+                    <div class="editor__swich">
+                        <input type="checkbox" class="editor__checkbox" id="checkbox2">
+                        <label for="checkbox2" class="editor__slider"></label>
+                    </div>
+                </div>
+                <p>Feature toggle:price lower</p>
+                <p>R55AC000-1678-0063-00076520</p>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="10" fill="#F7F7FC" />
+                    <path
+                        d="M23.8802 22.4698C24.3602 21.6998 24.6302 20.7998 24.5702 19.8098C24.4402 17.6598 22.7302 15.8398 20.6002 15.6098C17.8802 15.3098 15.5802 17.4198 15.5802 20.0798C15.5802 22.5698 17.5902 24.5798 20.0702 24.5798C20.9502 24.5798 21.7702 24.3198 22.4602 23.8798L24.8702 26.2898C25.2602 26.6798 25.9002 26.6798 26.2902 26.2898C26.6802 25.8998 26.6802 25.2598 26.2902 24.8698L23.8802 22.4698ZM20.0802 22.5798C18.7002 22.5798 17.5802 21.4598 17.5802 20.0798C17.5802 18.6998 18.7002 17.5798 20.0802 17.5798C21.4602 17.5798 22.5802 18.6998 22.5802 20.0798C22.5802 21.4598 21.4602 22.5798 20.0802 22.5798ZM19.7202 14.0798C18.9802 14.0998 18.2702 14.2598 17.6202 14.5298L17.0702 13.6998L13.9902 18.7098C13.6302 19.2898 12.8202 19.3498 12.3802 18.8398L10.2602 16.3698L7.20023 21.2698C6.89023 21.7598 6.23023 21.8898 5.76023 21.5498C5.34023 21.2398 5.22023 20.6598 5.50023 20.2098L9.28023 14.1598C9.64023 13.5898 10.4502 13.5298 10.8902 14.0398L13.0002 16.4998L16.1802 11.3298C16.5602 10.7098 17.4602 10.6898 17.8602 11.2998L19.7202 14.0798ZM22.3102 14.5798C21.6702 14.2998 20.9802 14.1298 20.2602 14.0898L24.8002 6.89981C25.1102 6.40981 25.7702 6.28981 26.2302 6.62981C26.6602 6.93981 26.7702 7.52981 26.4902 7.96981L22.3102 14.5798Z"
+                        fill="#9699AB" />
+                </svg>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="10" fill="#F7F7FC" />
+                    <path
+                        d="M18 15C18 15.55 17.55 16 17 16H8C7.45 16 7 15.55 7 15C7 14.45 7.45 14 8 14H17C17.55 14 18 14.45 18 15ZM7 11C7 11.55 7.45 12 8 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H8C7.45 10 7 10.45 7 11ZM14 19C14 18.45 13.55 18 13 18H8C7.45 18 7 18.45 7 19C7 19.55 7.45 20 8 20H13C13.55 20 14 19.55 14 19ZM22.01 16.87L22.72 16.16C23.11 15.77 23.74 15.77 24.13 16.16L24.84 16.87C25.23 17.26 25.23 17.89 24.84 18.28L24.13 18.99L22.01 16.87ZM21.3 17.58L16.14 22.74C16.05 22.83 16 22.95 16 23.09V24.5C16 24.78 16.22 25 16.5 25H17.91C18.04 25 18.17 24.95 18.26 24.85L23.42 19.69L21.3 17.58Z"
+                        fill="#9699AB" />
+                </svg>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="10" fill="#F7F7FC" />
+                    <path
+                        d="M10 23C10 24.1 10.9 25 12 25H20C21.1 25 22 24.1 22 23V13C22 11.9 21.1 11 20 11H12C10.9 11 10 11.9 10 13V23ZM13 13H19C19.55 13 20 13.45 20 14V22C20 22.55 19.55 23 19 23H13C12.45 23 12 22.55 12 22V14C12 13.45 12.45 13 13 13ZM19.5 8L18.79 7.29C18.61 7.11 18.35 7 18.09 7H13.91C13.65 7 13.39 7.11 13.21 7.29L12.5 8H10C9.45 8 9 8.45 9 9C9 9.55 9.45 10 10 10H22C22.55 10 23 9.55 23 9C23 8.45 22.55 8 22 8H19.5Z"
+                        fill="#9699AB" />
+                </svg>
+            </div>
+
+        </div>
+    </section>
+</main>
+    </div>
+    <footer class="footer">
+    <div class="footer__block">
+        <div class="footer__content container">
+            <a href="#logo" class="footer__logo logo">Abrouter</a>
+            <div class="footer__item-block">
+                <ul class="footer__item">
+                    <h3 class="footer__item-title">Product</h3>
+                    <li class="footer__list">Product overview</li>
+                    <li class="footer__list">Why us</li>
+                    <li class="footer__list">Pricing</li>
+                    <li class="footer__list">Docs</li>
+                </ul>
+            </div>
+
+            <div class="footer__item-block">
+                <ul class="footer__item">
+                    <h3 class="footer__item-title">A/B tests</h3>
+                    <li class="footer__list">Implement A/B tests Laravel</li>
+                    <li class="footer__list">Implement A/B tests PHP</li>
+                </ul>
+            </div>
+
+            <div class="footer__item-block">
+                <ul class="footer__item">
+                    <h3 class="footer__item-title">Support</h3>
+                    <li class="footer__list">
+                        <a class="footer__list" href="#">abrouter@prixedmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__low container">
+            <p class="footer__company">© ABROUTER 2021. All rights reserved.</p>
+            <div class="footer__low-text-block">
+                <p class="footer__low-text">Privacy Policy</p>
+                <p class="footer__low-text">Terms & Conditions</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
